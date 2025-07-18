@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: tiktok-sans, sans-serif;
+}
+
+.main {
+    background-image: url('assets/images/bg.jpg');
+    height: 85vh;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+}
+
+.main .box {
+    height: 85vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.main input {
+    padding: 7px 105px 8px 14px;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(232, 231, 231, 0.5);
+
+}
+
+nav {
+    display: flex;
+    max-width: 140vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 28px;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(80, 80, 80);
+    /* z-index: 20; */
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 400px;
+    padding: 10px 15px;
+
+}
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+
+.btn-red-sm {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 7px 10px 6px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.top-shows:nth-child(.secImg) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    background-size: cover;
+    z-index: 2;
+}
+
+.title {
+    font-size: 1.5rem;
+  font-size: 35px;
+  width: 100vw;           
+  margin: 5px 0 0 0;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+}
+
+.Top-shows {
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+
+}
+
+.secImg img {
+    padding: 0 5px;
+    margin: 10px 0;
+
+}
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+}
+
+.Faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.Faqbox:hover{
+    background-color: rgb(50, 50, 50);
+    transition: 0.3s;}
+.Faqbox{
+    display: flex;
+    background-color: rgb(74, 74, 74);
+    padding: 24px;
+    fonqt-size: 24px;
+    width: 100%;
+    max-width: 60vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+footer{
+    color: #fff;
+}
+footer span{
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #000;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
